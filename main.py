@@ -68,7 +68,7 @@ def draw ():
     for x in range(len(celulas)):
         for y in range(len(celulas)):
             if celulas[x][y] == 1:
-                pixel(x, y, (0.2, 0.2, 1)) #color de celulas
+                pixel(x, y, (255, 215, 0)) #color de celulas
             else:
                 pixel(x, y, (0.12, 0, 0.12)) #color de fondo
 
